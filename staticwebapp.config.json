@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "route": "/.well-known/mta-sts.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8"
+      }
+    }
+  ],
+  "mimeTypes": {
+    ".txt": "text/plain"
+  }
+}
